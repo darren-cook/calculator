@@ -1,5 +1,21 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: blue;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EFECCA;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #5E565A;
+    height: 66vh;
+    width: 66vh;
+    border-radius: 50px;
+    box-shadow: 7px 14px #201D1F;
 }
