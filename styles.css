@@ -36,12 +36,21 @@ body {
     padding-top: 5px;
 }
 
+.topscreen {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
 .screen {
     background-color: #D8D4D5;
     border: black 1px solid;
     height: 10vh;
     width: 53vh;
     border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0px 10px 0px 0px;
 }
 
 .main {
@@ -82,7 +91,10 @@ body {
     transition: 100ms;
     border-style: none;
     border: 1px solid black;
-    width: 4.42vh;
+    min-width: 4.42vh;
+    display: inline-block;
+    filter: grayscale(1);
+    padding: 0px 5px 0px 5px;
 }
 
 .buttonnum {
@@ -95,8 +107,12 @@ body {
     border: 1px solid black;
 }
 
-button:hover{
+.buttonbottom:hover{
     transform: scale(1.1);
+    border: 1px solid ivory;
+}
+
+.buttontop:hover{
     border: 1px solid ivory;
 }
 
