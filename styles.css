@@ -116,7 +116,7 @@ body {
     border: 1px solid ivory;
 }
 
-.buttonclear {
+.buttonclear, #backspace {
     font-size: x-large;
     font-weight: bold;
     background-color: #629387;
@@ -126,7 +126,7 @@ body {
     border: 1px solid black;
 }
 
-.buttonsym {
+.buttonsym, #period {
     font-size: x-large;
     font-weight: bold;
     background-color: #A9C6BF;
